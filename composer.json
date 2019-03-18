@@ -1,12 +1,16 @@
 {
-    "name": "philf/setting",
-    "description": "Persistent configuration settings for Laravel - Create, Read, Update and Delete settings stored in files using JSON",
+    "name": "aescarcha/setting",
+    "description": "Persistent configuration settings for Laravel 4 - Create, Read, Update and Delete settings stored in files using JSON",
     "keywords": ["laravel", "config"],
     "license": "MIT",
     "authors": [
         {
             "name": "Phil Foulston",
             "email": "info@weztec.com"
+        },
+        {
+            "name": "Álvaro Escarcha",
+            "email": "info@iteramos.com"
         }
     ],
     "require": {

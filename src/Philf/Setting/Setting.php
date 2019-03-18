@@ -210,7 +210,6 @@ class Setting {
         {
             mkdir($this->path, 0755, true);
         }
-
         $fh = fopen($this->path.'/'.$this->filename, 'w+');
         fwrite($fh, json_encode($this->settings));
         fclose($fh);

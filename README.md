@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/Phil-F/Setting.png)](https://travis-ci.org/Phil-F/Setting)
 
+Forked from `philf/setting`, it was abandoned
+
 # Laravel Setting
 
 Persistent configuration settings for Laravel - Create, Read, Update and Delete settings stored in files using JSON.
@@ -15,11 +17,12 @@ This package also provides a fallback for the Laravel Config facade, you can set
 ## Contributors
     janhartigan (Treeface)
     Nils Plaschke (Chumper)
+    Álvaro Escarcha
 
 ## Installation
 Require this package in your composer.json:
 
-    "philf/setting": "dev-master"
+    "aescarcha/setting": "dev-master"
 
 And add the ServiceProvider to the providers array in app/config/app.php
 
